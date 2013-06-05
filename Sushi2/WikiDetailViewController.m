@@ -217,8 +217,6 @@
     jsString =  [self.webView stringByEvaluatingJavaScriptFromString:@"document.getElementsByTagName('p')[0].textContent;"];
     self.wikiText.text = jsString;
     
-    NSLog(@"dfgfd %@",jsString);
-    
 }
 
 - (IBAction)makeWikiAppear:(id)sender {

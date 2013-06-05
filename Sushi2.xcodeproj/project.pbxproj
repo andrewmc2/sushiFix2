@@ -10,6 +10,8 @@
 		9E1380AA175D2E10001C97C1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E1380A9175D2E0F001C97C1 /* AssetsLibrary.framework */; };
 		9E2C2ED11757F21A0055F1D5 /* SushiCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C2ED01757F21A0055F1D5 /* SushiCollectionViewCell.m */; };
 		9E2C2ED31758508E0055F1D5 /* japWood.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E2C2ED21758508E0055F1D5 /* japWood.png */; };
+		9E3A8172175EAA9A00FF8F0D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3A8171175EAA9A00FF8F0D /* CoreMedia.framework */; };
+		9E3A81EB175ECD3F00FF8F0D /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3A81EA175ECD3F00FF8F0D /* ImageIO.framework */; };
 		9E4BBC8E175C66B500D3EF25 /* caliRollBG2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E4BBC8D175C66B500D3EF25 /* caliRollBG2.png */; };
 		9E50B0C1175A82E5004AFE23 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E50B0C0175A82E5004AFE23 /* Social.framework */; };
 		9E593171175901360026246A /* MSTranslateAccessTokenRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E593167175901360026246A /* MSTranslateAccessTokenRequester.m */; };
@@ -85,6 +87,8 @@
 		9E2C2ECF1757F21A0055F1D5 /* SushiCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SushiCollectionViewCell.h; sourceTree = "<group>"; };
 		9E2C2ED01757F21A0055F1D5 /* SushiCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SushiCollectionViewCell.m; sourceTree = "<group>"; };
 		9E2C2ED21758508E0055F1D5 /* japWood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japWood.png; sourceTree = "<group>"; };
+		9E3A8171175EAA9A00FF8F0D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		9E3A81EA175ECD3F00FF8F0D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		9E4BBC8D175C66B500D3EF25 /* caliRollBG2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = caliRollBG2.png; sourceTree = "<group>"; };
 		9E50B0C0175A82E5004AFE23 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		9E593166175901360026246A /* MSTranslateAccessTokenRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTranslateAccessTokenRequester.h; sourceTree = "<group>"; };
@@ -199,6 +203,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E3A81EB175ECD3F00FF8F0D /* ImageIO.framework in Frameworks */,
+				9E3A8172175EAA9A00FF8F0D /* CoreMedia.framework in Frameworks */,
 				9E1380AA175D2E10001C97C1 /* AssetsLibrary.framework in Frameworks */,
 				9EA345DF175B0E3100728752 /* CoreText.framework in Frameworks */,
 				9E50B0C1175A82E5004AFE23 /* Social.framework in Frameworks */,
@@ -236,6 +242,8 @@
 		9E764E4C175667AC00FEB118 = {
 			isa = PBXGroup;
 			children = (
+				9E3A81EA175ECD3F00FF8F0D /* ImageIO.framework */,
+				9E3A8171175EAA9A00FF8F0D /* CoreMedia.framework */,
 				9E1380A9175D2E0F001C97C1 /* AssetsLibrary.framework */,
 				9EA345DE175B0E3100728752 /* CoreText.framework */,
 				9E50B0C0175A82E5004AFE23 /* Social.framework */,

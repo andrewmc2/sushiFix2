@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "AddSushiDelegate.h"
+#import <CoreMedia/CoreMedia.h>
+#import <ImageIO/ImageIO.h>
+#import <CoreLocation/CoreLocation.h>
 
 @interface AddSushiViewController : UIViewController<UIImagePickerControllerDelegate, UINavigationControllerDelegate, UIActionSheetDelegate>
 {
